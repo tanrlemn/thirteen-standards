@@ -1,0 +1,8 @@
+{
+  "short_name": "Thirteen Standards",
+  "name": "The Thirteen Standards Of Knowledge",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

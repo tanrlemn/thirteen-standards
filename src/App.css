@@ -1,0 +1,98 @@
+:root {
+  --black: #111114;
+  --white: #fff;
+
+  /* Grays */
+  --gray-darkest: #17171b;
+  --gray-dark: #2b2b32;
+  --gray-mid: #9999a9;
+  --gray-mid-light: #bdbdc8;
+  --gray-light: #e2e2f2;
+  --blueGray: #607d8b;
+
+  /* Reds */
+  --red: #f44336;
+
+  /* Pinks */
+  --pink: #e91e63;
+
+  /* Oranges */
+  --orange: #ff9800;
+  --deepOrange: #ff5722;
+
+  /* Yellows */
+  --yellow: #ffeb3b;
+  --amber: #ffc107;
+
+  /* Greens */
+  --green: #4caf50;
+  --lightGreen: #8bc34a;
+  --lime: #cddc39;
+
+  /* Teals */
+  --teal: #009688;
+  --cyan: #00bcd4;
+
+  /* Blues */
+  --blue: #2196f3;
+  --lightBlue: #03a9f4;
+  --indigo: #3f51b5;
+
+  /* Purples */
+  --purple: #9c27b0;
+  --deepPurple: #673ab7;
+
+  /* Borders */
+  --gray-border-sm: 1px solid var(--gray-dark);
+  --gray-mid-border-sm: 1px solid var(--gray-mid);
+
+  --green-border-sm: 1px solid var(--green);
+
+  --red-border-sm: 1px solid var(--red);
+}
+
+.App {
+  text-align: center;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+.standards {
+  max-width: 100vw;
+  min-width: 100%;
+}
+
+.hotspot {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  min-width: 130px;
+  min-height: 130px;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.iconsWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: -5.5rem;
+}
+
+.modalWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  backdrop-filter: blur(10px) brightness(0.5);
+}
